@@ -1,116 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>AI-Based DDoS Detection System</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f7fa;
-            color: #333;
-            line-height: 1.7;
-            margin: 40px;
-        }
+# 🔐 AI-Based DDoS Attack Detection System
 
-        h1 {
-            color: #1f3c88;
-            text-align: center;
-        }
+## 📌 Project Description
+This project presents an intelligent system for detecting and classifying **Distributed Denial of Service (DDoS) attacks** by analyzing network traffic using Machine Learning techniques.
 
-        h2 {
-            color: #2c5cc5;
-            margin-top: 30px;
-        }
+DDoS attacks are one of the most common and dangerous cyber threats. In these attacks, a server or network is flooded with a massive number of requests, making services unavailable for legitimate users. This can lead to service downtime, financial losses, and serious security risks.
 
-        p {
-            font-size: 16px;
-            margin-top: 15px;
-        }
+The goal of this project is to build a smart system that can monitor network traffic behavior and automatically distinguish between normal activity and malicious traffic. Instead of relying on traditional rule-based security methods, the system learns patterns from real-world data and uses them to make accurate decisions.
 
-        .container {
-            max-width: 900px;
-            background-color: white;
-            padding: 30px;
-            margin: auto;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+The project is based on the **CIC-DDoS 2019 dataset**, which contains realistic network traffic data representing both normal traffic and different types of DDoS attacks. This makes the system more reliable and closer to real-world cybersecurity scenarios.
 
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #777;
-            font-size: 14px;
-        }
-    </style>
-</head>
+After preparing the data, a Machine Learning model is trained to recognize traffic patterns and classify them into normal or attack categories. To make the system more practical, the trained model is integrated into a web application using **Flask**, allowing users to interact with the system through a simple and user-friendly interface.
 
-<body>
+Through this interface, users can upload data, perform predictions, and view classification results easily. This transforms the project from a standalone model into a complete, usable system.
 
-<div class="container">
+This project was developed as a **Level 3 academic project** and represents an important step in applying theoretical knowledge to real-world cybersecurity problems. It provided hands-on experience in data processing, machine learning, system integration, and collaborative work.
 
-    <h1>AI-Based DDoS Attack Detection System</h1>
+Overall, the system aims to provide an effective, scalable, and easy-to-use solution for early detection of DDoS attacks and improving network security and response time.
 
-    <h2>Project Description</h2>
+---
 
-    <p>
-        This project presents an intelligent system for detecting and classifying
-        <strong>Distributed Denial of Service (DDoS)</strong> attacks by analyzing
-        network traffic using Machine Learning techniques.
-    </p>
+## 📊 Dataset
+- **Name:** CIC-DDoS 2019  
+- **Source:** Canadian Institute for Cybersecurity  
 
-    <p>
-        DDoS attacks are among the most common and dangerous cyber threats.
-        Attackers flood servers with massive numbers of requests, making services
-        unavailable for legitimate users. These attacks can cause financial losses,
-        system downtime, and security risks.
-    </p>
+🔗 Dataset Link:  
+https://www.unb.ca/cic/datasets/ddos-2019.html
 
-    <p>
-        The main idea of this project is to build a smart system that monitors network
-        traffic, analyzes its behavior, and automatically distinguishes between
-        normal and malicious activities. Instead of relying on traditional rule-based
-        methods, the system learns patterns from real-world data.
-    </p>
+---
 
-    <p>
-        The project is based on the <strong>CIC-DDoS 2019 dataset</strong>, which
-        contains realistic network traffic representing both normal usage and
-        different types of DDoS attacks. This helps make the system more reliable
-        and practical.
-    </p>
+## ⚙️ Technologies Used
+- Python  
+- Pandas & NumPy  
+- Scikit-learn  
+- XGBoost  
+- Flask  
+- Matplotlib  
 
-    <p>
-        After preprocessing the data, a Machine Learning model is trained to recognize
-        traffic patterns and classify them into normal or attack categories.
-        The trained model is then integrated into a web application using
-        <strong>Flask</strong>, allowing users to interact with the system easily.
-    </p>
+---
 
-    <p>
-        Through this interface, users can upload data, perform predictions, and view
-        classification results in a simple and user-friendly way, making the project
-        applicable outside the development environment.
-    </p>
+## 🌐 System Features
+- Detects DDoS attacks from network traffic
+- Distinguishes between normal and malicious activity
+- Supports classification of different attack types
+- Web-based interface for easy interaction
+- Scalable and extendable design
 
-    <p>
-        This project was developed as a <strong>Level 3 academic project</strong> and
-        represents an important step in applying theoretical knowledge to real-world
-        cybersecurity problems. It provided hands-on experience in data processing,
-        machine learning, system integration, and teamwork.
-    </p>
+---
 
-    <p>
-        Overall, this system aims to provide an effective, scalable, and easy-to-use
-        solution for early detection of DDoS attacks and improving network security
-        and response time.
-    </p>
+## 🎓 Academic Context
+- Level 3 Academic Project
+- Focused on practical cybersecurity applications
+- Combines Machine Learning with real-world data
 
-</div>
+---
 
-<footer>
-    <p>AI-Based DDoS Detection System | Level 3 Project</p>
-</footer>
-
-</body>
-</html>
+## 📜 License
+This project is developed for academic and educational purposes only.
