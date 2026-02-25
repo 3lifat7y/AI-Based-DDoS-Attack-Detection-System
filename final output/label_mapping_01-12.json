@@ -1,0 +1,15 @@
+{
+  "0": "BENIGN",
+  "1": "DrDoS_DNS",
+  "2": "DrDoS_LDAP",
+  "3": "DrDoS_MSSQL",
+  "4": "DrDoS_NTP",
+  "5": "DrDoS_NetBIOS",
+  "6": "DrDoS_SNMP",
+  "7": "DrDoS_SSDP",
+  "8": "DrDoS_UDP",
+  "9": "Syn",
+  "10": "TFTP",
+  "11": "UDP-lag",
+  "12": "WebDDoS"
+}
